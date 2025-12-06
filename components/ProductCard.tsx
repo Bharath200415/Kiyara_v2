@@ -26,6 +26,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <img 
           src={product.image} 
           alt={product.name} 
+          width="464" height="698"
           className="h-full w-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover/card:scale-110"
         />
         
@@ -52,7 +53,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <h3 className="font-serif text-2xl text-primary leading-none group-hover/card:underline decoration-1 underline-offset-4 decoration-accent/60">
             {product.name}
           </h3>
-          <span className="font-sans font-bold text-lg text-primary ml-4">${product.price}</span>
+          
         </div>
         
         <div className="flex items-center justify-between">

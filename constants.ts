@@ -1,4 +1,7 @@
 import { Product, SlideData, Collection, FeatureBlock } from './types';
+import sample1 from './Source/sample1.jpg';
+import sample2 from './Source/sample2.jpg';
+import sample3 from './Source/sandalw.jpg';
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -52,15 +55,15 @@ export const PRODUCTS: Product[] = [
     name: 'Handwash with Aloevera Extract',
     category: 'Body Care',
     price: 12.00,
-    image: 'Source/sample1.jpg',
+    image: sample1,
     rating: 5,
   },
   {
     id: '2',
-    name: 'Rose & Sandalwood Mist',
-    category: 'Face Care',
+    name: 'Body Lotion enriched with Aloevera Extract',
+    category: 'Body Care',
     price: 32.00,
-    image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=800&auto=format&fit=crop',
+    image: sample2,
     rating: 4,
   },
   {
@@ -85,7 +88,7 @@ export const PRODUCTS: Product[] = [
     name: 'Neem Purifying Cleanser',
     category: 'Face Care',
     price: 28.00,
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=800&auto=format&fit=crop',
+    image: sample3,
     rating: 4,
   },
   {
