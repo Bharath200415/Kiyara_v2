@@ -135,14 +135,14 @@ export const AboutSection: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-12 items-start text-left max-w-4xl mx-auto mt-7 mb-5">
             <div className="flex-1">
                <FadeIn delay={600}>
-                  <p className="text-lg mt-6 md:text-xl text-primary/80 font-light leading-relaxed">
+                  <p className="text-lg mt-7 md:text-xl text-primary/80 font-light leading-relaxed">
                     With a vision rooted in harmony with nature, our sustainable and affordable products empower health- and eco-conscious individuals to embrace beauty that’s kind to both skin and planet.
                   </p>
                </FadeIn>
             </div>
             <div className="flex-1 border-l border-primary/20 pl-8">
                <FadeIn delay={800}>
-                  <p className="text-sm font-bold uppercase tracking-widest text-primary mb-4 flex items-center gap-2">
+                  <p className="text-md font-bold uppercase tracking-widest text-primary mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-accent"></span>
                     Our Promise
                   </p>
