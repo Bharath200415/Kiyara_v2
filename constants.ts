@@ -5,7 +5,7 @@ import sample2 from './Source/sample2.jpg';
 import sample3 from './Source/sandalw.jpg';
 import bodycare from './Source/bodycare_1.png'
 import skincare from './Source/skincare1.png'
-
+const nightskincare = new URL('./Source/nightskincare.png', import.meta.url).href;
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -150,7 +150,7 @@ export const DUAL_FEATURES: FeatureBlock[] = [
   {
     title: 'The Calm of Night',
     description: 'Nourishing & Restorative formulas for deep repair.',
-    image: 'https://images.unsplash.com/photo-1571781565023-40f8d4752541?q=80&w=1200&auto=format&fit=crop',
+    image:nightskincare,
     cta: 'Discover Night',
   },
 ];

@@ -10,8 +10,8 @@ import { BrandValues } from './components/BrandValues';
 import { Footer } from './components/Footer';
 import { CartDrawer } from './components/CartDrawer';
 import { Button } from './components/Button';
-import gifting from './Source/gifting.png';
 import { FadeIn } from './components/FadeIn';
+const gifting = new URL('./Source/gifting.png', import.meta.url).href;
 
 const App: React.FC = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
