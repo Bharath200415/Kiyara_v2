@@ -36,7 +36,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* View on Amazon Button - Appears from bottom */}
         <div className="absolute inset-x-4 bottom-4 translate-y-20 group-hover/card:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">
            <a 
-             href="https://www.amazon.com" 
+             href={product.amazonLink || "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0G2SM1LT4&me=A1DOW6REQTMAYS"} 
              target="_blank" 
              rel="noopener noreferrer"
              className="w-full bg-white/90 backdrop-blur-md text-primary py-4 rounded-xl flex items-center justify-center gap-2 shadow-lg hover:bg-[#FF9900] hover:text-white transition-colors duration-300 group/btn"

@@ -1,15 +1,17 @@
 import { Product, SlideData, Collection, FeatureBlock } from './types';
 import carousel1 from './Source/carousel1.png';
 import sample1 from './Source/sample1.jpg';
-import sample2 from './Source/sample2.jpg';
-import sample3 from './Source/sandalw.jpg';
-import bodycare from './Source/bodycare_1.png'
-import skincare from './Source/skincare1.png'
+const shampoo = new URL('./Source/shampoo.png', import.meta.url).href;
+const sample2= new URL('./Source/sample2.jpg', import.meta.url).href;
+const sandalwood = new URL('./Source/sandalwood.png', import.meta.url).href;
+const bodycare= new URL('./Source/bodycare_1.png', import.meta.url).href;
+const skincare = new URL('./Source/skincare1.png', import.meta.url).href;
 const carousel2 = new URL('./Source/carousel2.png', import.meta.url).href;
 const nightskincare = new URL('./Source/nightskincare.png', import.meta.url).href;
 const bodyscrub = new URL('./Source/bodyscrub.png', import.meta.url).href;
 const bodylotion = new URL('./Source/bodylotion.png', import.meta.url).href;
-
+const charcoal = new URL('./Source/charcoal.png', import.meta.url).href;
+const serum = new URL('./Source/serum1.png', import.meta.url).href;
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -65,17 +67,28 @@ export const PRODUCTS: Product[] = [
     price: 12.00,
     image: sample1,
     rating: 5,
+    amazonLink: 'https://amzn.in/d/9VzPeNP',
   },
   {
     id: '2',
+    name: 'Kiyara Serum',
+    category: 'Face Care',
+    price: 12.00,
+    image: serum,
+    rating: 5,
+    amazonLink: 'https://amzn.in/d/gqeq9ds',
+  },
+  {
+    id: '3',
     name: 'Kiyara Body Lotion enriched with Aloevera Extract',
     category: 'Body Care',
     price: 32.00,
     image: bodylotion,
     rating: 4,
+    amazonLink: 'https://amazon.in/',
   },
   {
-    id: '3',
+    id: '4',
     name: 'Kiyara Walnut Body Scrub',
     category: 'Body Care',
     price: 68.00,
@@ -83,65 +96,73 @@ export const PRODUCTS: Product[] = [
     // image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=800&auto=format&fit=crop',
     rating: 5,
     isNew: true,
-  },
-  {
-    id: '4',
-    name: 'Kiyara Charcoal Handmade Herbal Soap',
-    category: 'Body Care',
-    price: 45.00,
-    image: 'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=800&auto=format&fit=crop',
-    rating: 5,
+    amazonLink: 'https://amazon.in/',
   },
   {
     id: '5',
-    name: 'Kiyara Sandalwood Handmade Herbal Soap',
+    name: 'Kiyara Charcoal Handmade Herbal Soap',
     category: 'Body Care',
-    price: 28.00,
-    image: sample3,
-    rating: 4,
+    price: 45.00,
+    image: charcoal,
+    rating: 5,
+    amazonLink: 'https://amazon.in/',
   },
   {
     id: '6',
+    name: 'Kiyara Sandalwood Handmade Herbal Soap',
+    category: 'Body Care',
+    price: 28.00,
+    image: sandalwood,
+    rating: 4,
+    amazonLink: 'https://amazon.in/',
+  },
+  {
+    id: '7',
     name: 'Kiyara Shampoo',
     category: 'Hair Care',
     price: 38.00,
-    image: 'https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=800&auto=format&fit=crop',
+    image: shampoo,
     rating: 5,
     isNew: true,
+    amazonLink: 'https://amazon.in/',
   },
   // Added dummy products to populate Body Care
   {
-    id: '7',
+    id: '8',
     name: 'Kiyara Walnut Body Scrub',
     category: 'Face Care',
     price: 24.00,
     image: bodyscrub,
     rating: 4,
+    amazonLink: 'https://amazon.in/',
   },
   {
-    id: '8',
+    id: '9',
     name: 'Kiyara Neem & Tulsi Handmade Herbal Soap',
     category: 'Body Care',
     price: 35.00,
     image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=800&auto=format&fit=crop',
     rating: 5,
+    amazonLink: 'https://amazon.in/',
   },
   // Added dummy products to populate Hair Care
   {
-    id: '9',
+    id: '10',
     name: 'Hibiscus Hair Mask',
     category: 'Hair Care',
     price: 42.00,
     image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=800&auto=format&fit=crop',
     rating: 5,
+    amazonLink: 'https://amazon.in/',
   },
    {
-    id: '10',
+    id: '11',
     name: 'Amla Scalp Tonic',
     category: 'Hair Care',
     price: 29.00,
     image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=800&auto=format&fit=crop',
     rating: 4,
+    amazonLink: 'https://amazon.in/',
   }
 ];
 

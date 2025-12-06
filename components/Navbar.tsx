@@ -53,7 +53,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
 
           {/* Right Action - Shop on Amazon */}
           <div className="hidden lg:block">
-            <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0G2SM1LT4&me=A1DOW6REQTMAYS" target="_blank" rel="noopener noreferrer">
               <Button variant="primary" className="py-2.5 px-6 text-[10px] h-12 gap-1">
                 Shop on Amazon <ExternalLink size={12} />
               </Button>
@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
         </div>
 
         {/* Mobile Menu Drawer */}
-        <div className={`fixed inset-0 z-40 transform transition-transform duration-500 cubic-bezier(0.16, 1, 0.3, 1) lg:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`fixed inset-0 z-40 transform transition-transform duration-500 cubic-bezier(0.16, 1, 0.3, 1) lg:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full pointer-events-none'}`}>
           <div className="absolute inset-0 bg-white" /> {/* Full screen white background for clean look */}
           
           <div className="relative h-full flex flex-col justify-center items-center p-8 space-y-8">
@@ -87,7 +87,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
               ))}
               
               <div className="pt-8">
-                <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
+                <a href="https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0G2SM1LT4&me=A1DOW6REQTMAYS" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
                   <Button variant="primary" className="py-3 px-8 text-xs">
                     Shop on Amazon
                   </Button>

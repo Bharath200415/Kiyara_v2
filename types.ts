@@ -6,6 +6,7 @@ export interface Product {
   image: string;
   isNew?: boolean;
   rating?: number;
+  amazonLink?: string;
 }
 
 export interface NavItem {
