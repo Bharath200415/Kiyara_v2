@@ -150,7 +150,7 @@ export const DUAL_FEATURES: FeatureBlock[] = [
   {
     title: 'The Calm of Night',
     description: 'Nourishing & Restorative formulas for deep repair.',
-    image:nightskincare,
+    image: nightskincare,
     cta: 'Discover Night',
   },
 ];

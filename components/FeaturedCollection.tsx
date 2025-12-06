@@ -27,7 +27,7 @@ export const FeaturedCollection: React.FC = () => {
                 
                 <h2 className="text-5xl md:text-8xl font-serif text-primary mb-8 leading-[0.85] tracking-tighter">
                   <RevealText>Saffron &</RevealText>
-                  <RevealText delay={150} className="italic text-secondary">Gold Glow</RevealText>
+                  <RevealText delay={150} className="italic text-accent">Gold Glow</RevealText>
                 </h2>
                 
                 <p className="text-primary/70 mb-12 leading-relaxed text-lg md:text-xl font-light relative z-10 max-w-md">
