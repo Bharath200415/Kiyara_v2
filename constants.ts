@@ -5,8 +5,11 @@ import sample2 from './Source/sample2.jpg';
 import sample3 from './Source/sandalw.jpg';
 import bodycare from './Source/bodycare_1.png'
 import skincare from './Source/skincare1.png'
+const carousel2 = new URL('./Source/carousel2.png', import.meta.url).href;
 const nightskincare = new URL('./Source/nightskincare.png', import.meta.url).href;
 const bodyscrub = new URL('./Source/bodyscrub.png', import.meta.url).href;
+const bodylotion = new URL('./Source/bodylotion.png', import.meta.url).href;
+
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -28,7 +31,7 @@ export const HERO_SLIDES: SlideData[] = [
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=2680&auto=format&fit=crop',
+    image: carousel2,
     heading: 'Festive Season\nSpecial',
     subheading: "Nature's Gift for Radiant Skin",
     cta: 'Shop Collection',
@@ -68,7 +71,7 @@ export const PRODUCTS: Product[] = [
     name: 'Kiyara Body Lotion enriched with Aloevera Extract',
     category: 'Body Care',
     price: 32.00,
-    image: sample2,
+    image: bodylotion,
     rating: 4,
   },
   {

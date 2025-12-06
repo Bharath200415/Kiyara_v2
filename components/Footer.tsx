@@ -44,8 +44,8 @@ export const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h4 className="text-accent uppercase tracking-widest text-xs font-bold mb-6">Support</h4>
-            <ul className="space-y-4 text-sm font-medium text-white/70">
+            <h4 className="text-accent uppercase tracking-widest text-md font-bold mb-6">Support</h4>
+            <ul className="space-y-4 text-md font-medium text-white/70">
               <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Shipping</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Returns</a></li>
@@ -54,8 +54,8 @@ export const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-accent uppercase tracking-widest text-xs font-bold mb-6">Company</h4>
-            <ul className="space-y-4 text-sm font-medium text-white/70">
+            <h4 className="text-accent uppercase tracking-widest text-md font-bold mb-6">Company</h4>
+            <ul className="space-y-4 text-md font-medium text-white/70">
               <li><a href="#" className="hover:text-white transition-colors">Our Story</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Ingredients</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Sustainability</a></li>
