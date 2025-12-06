@@ -6,6 +6,7 @@ import sample3 from './Source/sandalw.jpg';
 import bodycare from './Source/bodycare_1.png'
 import skincare from './Source/skincare1.png'
 const nightskincare = new URL('./Source/nightskincare.png', import.meta.url).href;
+const bodyscrub = new URL('./Source/bodyscrub.png', import.meta.url).href;
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -56,7 +57,7 @@ export const CATEGORIES: Collection[] = [
 export const PRODUCTS: Product[] = [
   {
     id: '1',
-    name: 'Handwash with Aloevera Extract',
+    name: 'Kiyara Handwash with Aloevera Extract',
     category: 'Body Care',
     price: 12.00,
     image: sample1,
@@ -64,7 +65,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '2',
-    name: 'Body Lotion enriched with Aloevera Extract',
+    name: 'Kiyara Body Lotion enriched with Aloevera Extract',
     category: 'Body Care',
     price: 32.00,
     image: sample2,
@@ -72,16 +73,17 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '3',
-    name: 'Kumkumadi Night Cream',
-    category: 'Face Care',
+    name: 'Kiyara Walnut Body Scrub',
+    category: 'Body Care',
     price: 68.00,
-    image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=800&auto=format&fit=crop',
+    image:bodyscrub,
+    // image: 'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?q=80&w=800&auto=format&fit=crop',
     rating: 5,
     isNew: true,
   },
   {
     id: '4',
-    name: 'Jasmine Body Oil',
+    name: 'Kiyara Charcoal Handmade Herbal Soap',
     category: 'Body Care',
     price: 45.00,
     image: 'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=800&auto=format&fit=crop',
@@ -89,7 +91,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '5',
-    name: 'Neem Purifying Cleanser',
+    name: 'Kiyara Sandalwood Handmade Herbal Soap',
     category: 'Body Care',
     price: 28.00,
     image: sample3,
@@ -97,7 +99,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '6',
-    name: 'Bhringraj Hair Oil',
+    name: 'Kiyara Shampoo',
     category: 'Hair Care',
     price: 38.00,
     image: 'https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=800&auto=format&fit=crop',
@@ -107,15 +109,15 @@ export const PRODUCTS: Product[] = [
   // Added dummy products to populate Body Care
   {
     id: '7',
-    name: 'Sandalwood Body Wash',
-    category: 'Body Care',
+    name: 'Kiyara Walnut Body Scrub',
+    category: 'Face Care',
     price: 24.00,
-    image: 'https://images.unsplash.com/photo-1556228720-1987635c5c03?q=80&w=800&auto=format&fit=crop',
+    image: bodyscrub,
     rating: 4,
   },
   {
     id: '8',
-    name: 'Shea Butter Lotion',
+    name: 'Kiyara Neem & Tulsi Handmade Herbal Soap',
     category: 'Body Care',
     price: 35.00,
     image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=800&auto=format&fit=crop',

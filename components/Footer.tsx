@@ -33,10 +33,11 @@ export const Footer: React.FC = () => {
         {/* Links Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 border-t border-white/10 pt-16 mb-16">
            <div>
-            <h4 className="text-accent uppercase tracking-widest text-xs font-bold mb-6">Shop</h4>
-            <ul className="space-y-4 text-sm font-medium text-white/70">
-              <li><a href="#" className="hover:text-white transition-colors">Face Care</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Body Rituals</a></li>
+            <h4 className="text-accent uppercase tracking-widest text-md font-bold mb-6">Shop</h4>
+            <ul className="space-y-4 text-md font-medium text-white/70">
+              <li><a href="#" className="hover:text-white transition-colors">Skin Care</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Body Care</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Hair Care</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Gift Sets</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Best Sellers</a></li>
             </ul>

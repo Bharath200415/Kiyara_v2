@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
       <nav 
         className={`sticky top-0 z-50 w-full transition-all duration-300 ${
           isScrolled 
-            ? 'bg-white/80 backdrop-blur-md border-b border-stone-100 py-3' 
+            ? 'bg-white/70 backdrop-blur-md border-b border-stone-100 py-3' 
             : 'bg-transparent py-6'
         }`}
       >
