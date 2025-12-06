@@ -1,7 +1,10 @@
 import { Product, SlideData, Collection, FeatureBlock } from './types';
+import carousel1 from './Source/carousel1.png';
 import sample1 from './Source/sample1.jpg';
 import sample2 from './Source/sample2.jpg';
 import sample3 from './Source/sandalw.jpg';
+import bodycare from './Source/bodycare_1.png'
+import skincare from './Source/skincare1.png'
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -15,7 +18,7 @@ export const NAV_LINKS = [
 export const HERO_SLIDES: SlideData[] = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1624988991840-2861588dbd6f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: carousel1,
     heading: 'Start your Skincare\nJourney',
     subheading: 'Limited Edition Collection',
     cta: 'Explore Now',
@@ -34,17 +37,17 @@ export const HERO_SLIDES: SlideData[] = [
 export const CATEGORIES: Collection[] = [
   {
     title: 'Skin Care',
-    image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800&auto=format&fit=crop',
+    image: skincare,
     cta: 'Shop Face',
   },
   {
     title: 'Hair Care',
-    image: 'https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1564141696939-9eb6e957ccfc?q=80&w=1241&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     cta: 'Shop Body',
   },
   {
     title: 'Body Care',
-    image: 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?q=80&w=800&auto=format&fit=crop',
+    image: bodycare,
     cta: 'Shop Hair',
   },
 ];
@@ -86,7 +89,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '5',
     name: 'Neem Purifying Cleanser',
-    category: 'Face Care',
+    category: 'Body Care',
     price: 28.00,
     image: sample3,
     rating: 4,

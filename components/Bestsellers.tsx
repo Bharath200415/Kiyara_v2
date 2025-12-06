@@ -83,7 +83,7 @@ export const Bestsellers: React.FC = () => {
             >
               {filteredProducts.length > 0 ? (
                 filteredProducts.map((product) => (
-                  <div key={product.id} className="min-w-[280px] md:min-w-[340px] animate-[fadeIn_0.5s_ease-out]">
+                  <div key={product.id} className="flex-shrink-0 w-[280px] md:w-[340px] animate-[fadeIn_0.5s_ease-out]">
                     <ProductCard product={product} />
                   </div>
                 ))
