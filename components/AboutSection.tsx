@@ -132,10 +132,10 @@ export const AboutSection: React.FC = () => {
             <RevealText delay={500} className="inline-block">and cruelty-free.</RevealText>
           </h2>
 
-          <div className="flex flex-col md:flex-row gap-12 items-start text-left max-w-4xl mx-auto mt-8">
+          <div className="flex flex-col md:flex-row gap-12 items-start text-left max-w-4xl mx-auto mt-7 mb-5">
             <div className="flex-1">
                <FadeIn delay={600}>
-                  <p className="text-lg md:text-xl text-primary/80 font-light leading-relaxed">
+                  <p className="text-lg mt-6 md:text-xl text-primary/80 font-light leading-relaxed">
                     With a vision rooted in harmony with nature, our sustainable and affordable products empower health- and eco-conscious individuals to embrace beauty that’s kind to both skin and planet.
                   </p>
                </FadeIn>
