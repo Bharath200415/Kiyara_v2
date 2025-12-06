@@ -10,6 +10,7 @@ import { BrandValues } from './components/BrandValues';
 import { Footer } from './components/Footer';
 import { CartDrawer } from './components/CartDrawer';
 import { Button } from './components/Button';
+import gifting from './Source/gifting.png';
 import { FadeIn } from './components/FadeIn';
 
 const App: React.FC = () => {
@@ -33,7 +34,7 @@ const App: React.FC = () => {
           <div className="relative overflow-hidden rounded-[2.5rem] bg-accent h-[600px] flex items-center justify-center text-center">
             {/* Background Texture/Image */}
             <div className="absolute inset-0">
-               <img src="https://images.unsplash.com/photo-1596462502278-27bfdd403cc2?q=80&w=2500&auto=format&fit=crop" className="w-full h-full object-cover opacity-80 mix-blend-multiply" alt="" />
+               <img src={gifting} className="w-full h-full object-cover opacity-80 mix-blend-multiply" alt="" />
                <div className="absolute inset-0 bg-primary/30 mix-blend-multiply" />
             </div>
 

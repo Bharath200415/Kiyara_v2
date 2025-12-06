@@ -6,6 +6,7 @@ import sample3 from './Source/sandalw.jpg';
 import bodycare from './Source/bodycare_1.png'
 import skincare from './Source/skincare1.png'
 
+
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
   { label: 'Shop', href: '#shop' },
